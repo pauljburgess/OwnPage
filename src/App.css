@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blueviolet;
+  margin: 30px;
+}
+
+main {
+  background-color: aquamarine;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#nametag {
+  color: rgb(171, 170, 170);
+  text-align: right;
+}

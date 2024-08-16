@@ -13,7 +13,7 @@ function App() {
     <div>
 
       <Nav />
-      <h1>Paul Burgess</h1>
+      <h1 id='nametag'>Paul Burgess</h1>
       <main>
         <Routes>
           <Route path="/" element={<Home/>}/>
