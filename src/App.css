@@ -8,7 +8,6 @@ body {
 }
 
 main {
-  color: #FFF8F3;
   width: 100vw;
 }
 
@@ -18,18 +17,19 @@ main {
   height: 75px;
   line-height: 75px;
   text-align: right;
-  padding-right: 100px;
+  padding-right: 10vw;
 }
 
 #nametag {
   margin-top: auto;
   margin-bottom: auto;
-  
+
 }
 
 .nav {
   display: flex;
   flex-direction: column;
+  line-height: 25px;
+  margin-left: 5px;
+  margin-top: 15px;
 }
-
-
