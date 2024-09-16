@@ -6,15 +6,16 @@ import Home from './ components/Home'
 import About from './ components/About'
 import DataScience from './ components/DataScience'
 import WebDev from './ components/WebDev'
+import Header from './ components/Header'
 
 function App() {
  
   return (
     <div>
 
-      <Nav />
-      <h1 id='nametag'>Paul Burgess</h1>
+      <Header />
       <main>
+        <Nav />
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>

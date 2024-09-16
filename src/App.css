@@ -3,12 +3,28 @@
 }
 
 body {
-  background-color: blueviolet;
-  margin: 30px;
+  background-color: #FFF8F3;
+  margin: 0;
 }
 
 main {
-  background-color: aquamarine;
+  color: #FFF8F3;
+  width: 100vw;
+}
+
+.header {
+  margin-top: 15px;
+  background-color: #758694;
+  height: 75px;
+  line-height: 75px;
+  text-align: right;
+  padding-right: 100px;
+}
+
+#nametag {
+  margin-top: auto;
+  margin-bottom: auto;
+  
 }
 
 .nav {
@@ -17,7 +33,3 @@ main {
 }
 
 
-#nametag {
-  color: rgb(171, 170, 170);
-  text-align: right;
-}
