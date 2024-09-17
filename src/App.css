@@ -27,7 +27,10 @@ main {
 #nametag {
   margin-top: auto;
   margin-bottom: auto;
+}
 
+.sub-cat {
+  text-align: right;
 }
 
 .nav {
@@ -38,3 +41,7 @@ main {
   grid-column: 1 / span 1;
 }
 
+.content {
+  display: inline-block;
+  padding: 10px;
+}
