@@ -33,8 +33,9 @@ main {
 }
 
 #avatar {
-  width: 250px;
   float: right;
+  width: 250px;
+  display: inline ; 
   border-radius: 50%;
   border: 1px solid #0d161d;;
 }
