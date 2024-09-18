@@ -29,15 +29,15 @@ main {
   background-color: #758694;
   margin-left: auto;
   margin-right: auto;
-  width: 1400px;
-  /* border-top: 1px solid #0d161d;
-  border-bottom: 1px solid #0d161d; */
+  max-width: 50%;
+  min-width: 720px;
   height: 73px;
 }
 
 #nametag {
   margin-top: auto;
   margin-bottom: auto;
+  padding-right: 50px;
 }
 
 #avatar {
